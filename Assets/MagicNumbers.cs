@@ -9,7 +9,7 @@ public class MagicNumbers : MonoBehaviour
     int maxNumber = 1000;
     string playerName = "Artemka";
     int guess;
-
+    int guess1;
 
     //  bool isGameStarted = false;
 
@@ -22,7 +22,7 @@ public class MagicNumbers : MonoBehaviour
 
         guess = (minNumber + maxNumber) / 2;
         Debug.Log("А число твоё: " + guess + " ?");
-
+        
     }
 
     void Update()
@@ -30,7 +30,7 @@ public class MagicNumbers : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
         {
-            Debug.Log("Мой мозг не хуже чем у Стивена Хокинга хи-хи-хи :)! Твоё число было : "+ guess);
+            Debug.Log("Мой IQ не меньше Стивена Хокинга хи-хи-хи :)! Твоё число было : "+ guess);
         }
 
         else if (Input.GetKeyDown(KeyCode.UpArrow))
