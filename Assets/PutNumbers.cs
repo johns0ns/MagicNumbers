@@ -6,7 +6,6 @@ public class PutNumbers : MonoBehaviour
 {
     int num;
     int n;
-    string player = "юзер";
     int click;
     int tap;
 
