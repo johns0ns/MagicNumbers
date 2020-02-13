@@ -10,7 +10,7 @@ public class MagicNumbers : MonoBehaviour
     string playerName = "Артём";
     int guess;
     int click;
-    int tap;
+    int tap =1 ;
     void Start()
     {
         Debug.Log("Привет :) " + playerName);
